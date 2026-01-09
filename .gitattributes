@@ -1,0 +1,5 @@
+*.png filter=lfs diff=lfs merge=lfs -text
+*.dfs2 filter=lfs diff=lfs merge=lfs -text
+*.kmz filter=lfs diff=lfs merge=lfs -text
+*.dfsu filter=lfs diff=lfs merge=lfs -text
+idx_images_detected_all/image_metadata_wave.csv filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+# Ignore Garmin activity files
+*.fit
+
+# Ignore video files
+*.mp4
+
+# Ignore .bat windows scheduler files
+*.bat
+
+# Ignore png images files (github repos size limitation)
+**/*.png
+
+# Ignore Windninja kmz files (too big for github repo)
+**/*.kmz
+
+# Ignore MIKE 21 SW dfsu files (too big for github repo)
+**/*.dfsu
+
+# Ignore MIKE SW 21 dfs2 files (too big for github repo)
+**/*.dfs2
+
