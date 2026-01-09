@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <metadata>
+    <name>SUP Measure Line (⊥ Beatus Hotel facade)</name>
+  </metadata>
+  <wpt lat="46.69619" lon="7.736599999999996">
+    <name>P01</name>
+  </wpt>
+  <wpt lat="46.69616862492835" lon="7.736542482276074">
+    <name>P02</name>
+  </wpt>
+  <wpt lat="46.696147249827696" lon="7.736484964597544">
+    <name>P03</name>
+  </wpt>
+  <wpt lat="46.69612587469805" lon="7.736427446964405">
+    <name>P04</name>
+  </wpt>
+  <wpt lat="46.696104499539416" lon="7.736369929376657">
+    <name>P05</name>
+  </wpt>
+  <wpt lat="46.696083124351794" lon="7.736312411834295">
+    <name>P06</name>
+  </wpt>
+  <wpt lat="46.69606174913518" lon="7.736254894337326">
+    <name>P07</name>
+  </wpt>
+  <wpt lat="46.69604037388957" lon="7.736197376885755">
+    <name>P08</name>
+  </wpt>
+  <wpt lat="46.696018998614974" lon="7.736139859479563">
+    <name>P09</name>
+  </wpt>
+  <wpt lat="46.69599762331139" lon="7.736082342118774">
+    <name>P10</name>
+  </wpt>
+  <wpt lat="46.69597624797881" lon="7.736024824803376">
+    <name>P11</name>
+  </wpt>
+  <wpt lat="46.69595487261724" lon="7.735967307533357">
+    <name>P12</name>
+  </wpt>
+  <wpt lat="46.69593349722669" lon="7.735909790308741">
+    <name>P13</name>
+  </wpt>
+  <wpt lat="46.69591212180713" lon="7.735852273129506">
+    <name>P14</name>
+  </wpt>
+  <wpt lat="46.69589074635859" lon="7.735794755995667">
+    <name>P15</name>
+  </wpt>
+  <wpt lat="46.695869370881056" lon="7.735737238907223">
+    <name>P16</name>
+  </wpt>
+  <wpt lat="46.69584799537453" lon="7.735679721864157">
+    <name>P17</name>
+  </wpt>
+  <wpt lat="46.69582661983902" lon="7.735622204866494">
+    <name>P18</name>
+  </wpt>
+  <wpt lat="46.695805244274524" lon="7.735564687914226">
+    <name>P19</name>
+  </wpt>
+  <wpt lat="46.69578386868102" lon="7.7355071710073355">
+    <name>P20</name>
+  </wpt>
+  <trk>
+    <name>Measure Line Track</name>
+    <trkseg>
+      <trkpt lat="46.70039193704724" lon="7.7355949860066175">
+      </trkpt>
+      <trkpt lat="46.69619" lon="7.7366">
+      </trkpt>
+      <trkpt lat="46.69619" lon="7.736599999999996">
+      </trkpt>
+      <trkpt lat="46.69616862492835" lon="7.736542482276074">
+      </trkpt>
+      <trkpt lat="46.696147249827696" lon="7.736484964597544">
+      </trkpt>
+      <trkpt lat="46.69612587469805" lon="7.736427446964405">
+      </trkpt>
+      <trkpt lat="46.696104499539416" lon="7.736369929376657">
+      </trkpt>
+      <trkpt lat="46.696083124351794" lon="7.736312411834295">
+      </trkpt>
+      <trkpt lat="46.69606174913518" lon="7.736254894337326">
+      </trkpt>
+      <trkpt lat="46.69604037388957" lon="7.736197376885755">
+      </trkpt>
+      <trkpt lat="46.696018998614974" lon="7.736139859479563">
+      </trkpt>
+      <trkpt lat="46.69599762331139" lon="7.736082342118774">
+      </trkpt>
+      <trkpt lat="46.69597624797881" lon="7.736024824803376">
+      </trkpt>
+      <trkpt lat="46.69595487261724" lon="7.735967307533357">
+      </trkpt>
+      <trkpt lat="46.69593349722669" lon="7.735909790308741">
+      </trkpt>
+      <trkpt lat="46.69591212180713" lon="7.735852273129506">
+      </trkpt>
+      <trkpt lat="46.69589074635859" lon="7.735794755995667">
+      </trkpt>
+      <trkpt lat="46.695869370881056" lon="7.735737238907223">
+      </trkpt>
+      <trkpt lat="46.69584799537453" lon="7.735679721864157">
+      </trkpt>
+      <trkpt lat="46.69582661983902" lon="7.735622204866494">
+      </trkpt>
+      <trkpt lat="46.695805244274524" lon="7.735564687914226">
+      </trkpt>
+      <trkpt lat="46.69578386868102" lon="7.7355071710073355">
+      </trkpt>
+      <trkpt lat="46.70039193704724" lon="7.7355949860066175">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

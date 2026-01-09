@@ -1,0 +1,10 @@
+ROI level,y (px),Wave height h (m),Horizontal distance D (m),LOS distance R0 (m),Crest distance R(h) (m),Relative error (%)
+Near (upper ROI),2035,0.1,77.51,78.76,78.74,0.022
+Near (upper ROI),2035,0.5,77.51,78.76,78.67,0.111
+Near (upper ROI),2035,1.0,77.51,78.76,78.59,0.218
+Middle ROI,1736,0.1,117.58,118.41,118.4,0.01
+Middle ROI,1736,0.5,117.58,118.41,118.36,0.049
+Middle ROI,1736,1.0,117.58,118.41,118.3,0.096
+Far (lower ROI),1555,0.1,194.02,194.52,194.52,0.004
+Far (lower ROI),1555,0.5,194.02,194.52,194.49,0.018
+Far (lower ROI),1555,1.0,194.02,194.52,194.45,0.036
