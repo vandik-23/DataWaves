@@ -42,13 +42,13 @@ Below, the main repository folders are mapped directly to the corresponding step
 **Data acquisition**
 - [webscraper](web_scraper/)  
   Retrieval of panoramic webcam images (Merligen) and basic handling of image archives/metadata.
-- `ppm_experiment/`  
+- [ppm_experiment](ppm_experiment/)  
   Field experiment inputs and processing for geometric calibration (SUP-based reference measurements).
 
 **Data preprocessing**
-- `ppm_experiment/`  
+- [ppm_experiment](ppm_experiment/)  
   GPS/geometry extraction and computation of the **PPM conversion rate** used to translate pixel distances into meters.
-- `img_labeling/`  
+- [img_labeling](img_labeling/)  
   Dataset construction outputs supporting *stratified image sampling* and *label preparation* in YOLO format.
 
 **Model setup**
@@ -56,7 +56,7 @@ Below, the main repository folders are mapped directly to the corresponding step
   Training configurations and experiment artefacts for **YOLOv8 Nano & Small** fine-tuning.
 
 **Processing**
-- `results/`  
+- [results](results/)  
   Inference outputs and derived wave-height products (e.g., detection outputs used for wave-height calculation).
 
 ---
@@ -64,25 +64,25 @@ Below, the main repository folders are mapped directly to the corresponding step
 ### B) Spectral wave model pipeline (wind + bathymetry → wave heights)
 
 **Data acquisition**
-- `wind_pipeline/`  
+- [wind_pipeline](wind_pipeline/)
   Ingestion and preparation of wind station measurements (e.g., Thun / Interlaken / Frutigen).
-- 'MIKE21/bathymetry/'  
+- [bathymetry](MIKE21/bathymetry/)  
   Where licensing or data permissions apply, large model input datasets may not be fully included; see the thesis for details.
 
 **Data preprocessing**
-- `wind_pipeline/`  
+- [wind_pipeline](wind_pipeline/)  
   Harmonization of wind observations and preparation for modelling workflows (including coordinate handling).
-- `windninja/`  
+- [windninja](windninja/)  
   WindNinja automation/configuration and processing artefacts used for **terrain-informed wind downscaling** (wind forcing fields).
 
 **Model setup & processing**
-- `wind_pipeline/` and `results/`  
+- [MIKE21](MIKE21/SW_results) and [results](results/)  
   MIKE 21 SW setup references, run outputs, and postprocessing products used in the evaluation.
 
 ---
 
 ### C) Comparative evaluation (CV vs spectral model)
-- `results/`  
+- [evaluation results](results/final_evaluation_mike_vs_yolo)  
   Comparative metrics, figures, and summary artefacts combining:
   - webcam-derived wave heights (CV pipeline)
   - modelled wave characteristics (spectral pipeline)
