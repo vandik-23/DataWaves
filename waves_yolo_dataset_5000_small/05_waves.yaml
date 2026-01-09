@@ -1,0 +1,10 @@
+
+# Dataset config without copying images
+
+train: C:/Users/A/Documents/XX_GitHub_Repo/data-waves/waves_yolo_dataset_5000_small/train.txt
+val: C:/Users/A/Documents/XX_GitHub_Repo/data-waves/waves_yolo_dataset_5000_small/val.txt
+test: C:/Users/A/Documents/XX_GitHub_Repo/data-waves/waves_yolo_dataset_5000_small/test.txt
+
+names:
+  0: wave
+nc: 1
