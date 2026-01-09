@@ -8,7 +8,7 @@ This repository accompanies my master thesis and implements a **dual-pipeline mo
 2. **Spectral wave model pipeline:** generate a physically consistent reference wave climate using **MIKE 21 SW**, forced by terrain-aware wind fields produced with **WindNinja** and supported by bathymetry/mesh preparation.
 3. **Comparative analysis:** evaluate agreement and systematic deviations between both approaches across different wind regimes.
 
-A schematic overview of the research workflow is shown in `Research_Project_Structure.png` (thesis asset).
+A schematic overview of the research workflow is shown in this image: ![Alt](Research_Project_Structure.png):
 
 ---
 
@@ -40,7 +40,7 @@ Below, the main repository folders are mapped directly to the corresponding step
 ### A) Computer Vision pipeline (webcam → wave heights)
 
 **Data acquisition**
-- `web_scraper/`  
+- [webscraper](web_scraper/)  
   Retrieval of panoramic webcam images (Merligen) and basic handling of image archives/metadata.
 - `ppm_experiment/`  
   Field experiment inputs and processing for geometric calibration (SUP-based reference measurements).
