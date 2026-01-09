@@ -1,0 +1,6 @@
+path: ''
+train: C:\Users\A\Documents\XX_GitHub_Repo\data-waves\results\model_results\august_val.txt
+val: C:\Users\A\Documents\XX_GitHub_Repo\data-waves\results\model_results\august_val.txt
+nc: 1
+names:
+- wave

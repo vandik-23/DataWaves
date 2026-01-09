@@ -1,0 +1,6 @@
+path: C:\Users\A\Documents\XX_GitHub_Repo\data-waves\results\model_results\temp_august_selected_dataset
+train: images/val
+val: images/val
+nc: 1
+names:
+- wave
