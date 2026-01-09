@@ -1,0 +1,1495 @@
+// Created     : 2025-12-13 2:0:49
+// DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2025\bin\x64\pfs2004.dll
+// Version     : 23.0.3.18318
+
+[MIKE_ZERO_PLOT_COMPOSER]
+   [FORMAT_VERSION]
+      Verno = 100
+   EndSect  // FORMAT_VERSION
+
+   [PAPER_SETUP]
+      PaperType = 'A4 Size'
+      PaperOrientation = 'Portrait'
+      PaperWidth = 210.0
+      PaperHeight = 297.0
+      LeftMargin = 10.0
+      TopMargin = 10.0
+      RightMargin = 10.0
+      BottomMargin = 10.0
+      HorizontalSpace = 5.0
+      VerticalSpace = 5.0
+      Printer = ''
+   EndSect  // PAPER_SETUP
+
+   [BATCH_SETUP]
+      Batchtype = 0
+      Startstep = 1
+      Endstep = 1
+      Stepinterval = 1
+      Starttime = '01/01/1990'
+      Endtime = '01/01/1990'
+      Steptime = 1
+      Stepunit = 1400
+   EndSect  // BATCH_SETUP
+
+   [ANIMATION_SETUP]
+      TimeStep = 15.0
+      TimeStepUnit = 1401
+      StartTime = 2025, 8, 24, 2, 0, 0
+      EndTime = 2025, 8, 24, 23, 40, 0
+   EndSect  // ANIMATION_SETUP
+
+   [ACTIVE_X_PLOT]
+      [PLOT_TYPE]
+         Name = 'Time Series Direction Plot'
+         ClassID = '{29BCBE2A-E22D-4649-9EFC-0C820DEDA321}'
+         Locked = false
+      EndSect  // PLOT_TYPE
+
+      [PLOT_AREA]
+         x0 = 10.0
+         y0 = 200.0
+         x1 = 200.0
+         y1 = 280.0
+      EndSect  // PLOT_AREA
+
+      [PLOT_PROPERTIES]
+         [MZ_TS_DIR_PLOT]
+            [GENERAL_PROPERTIES]
+               Name = 'Time Series Direction Plot'
+               Frame = false
+               Transparent = false
+               Default_Item_Index = 12
+               TS_Legend_Draw = false
+               File_Legend_Draw = false
+               Grid_Draw = true
+               CHART_TITLE = 'Wind Speed & Direction Observations'
+               [MIKEZero_Time_Axis_Definition_Extreme]
+                  Calendar_Axis = true
+                  Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                  Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                  Y_Min = -1.0
+                  Y_Max = 5.400000095367432
+                  Y_Axis_Type = 4
+                  Y_Primary_Interval = 10.0
+                  Y_No_Of_Secondary_Intervals = 10
+                  Y_Reverse = false
+                  XAxis_Annotation = ''
+                  YAxis_Annotation = ''
+               EndSect  // MIKEZero_Time_Axis_Definition_Extreme
+
+               [MIKEZero_Time_Axis_Definition_View]
+                  Calendar_Axis = true
+                  Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                  Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                  Y_Min = -1.0
+                  Y_Max = 15.3000001907349
+                  Y_Axis_Type = 512
+                  Y_Primary_Interval = 5.0
+                  Y_No_Of_Secondary_Intervals = 5
+                  Y_Reverse = false
+                  XAxis_Annotation = ''
+                  YAxis_Annotation = 'Wind Speed (m/s)'
+               EndSect  // MIKEZero_Time_Axis_Definition_View
+
+               [MIKEZero_Time_Axis_Definition_Secondary_View]
+                  Calendar_Axis = false
+                  Relative_Time_Min = 1e+20
+                  Relative_Time_Max = -1e+20
+                  Y_Min = 1e-35
+                  Y_Max = 1e-35
+                  Y_Axis_Type = 4
+                  Y_Primary_Interval = 10.0
+                  Y_No_Of_Secondary_Intervals = 10
+                  Y_Reverse = false
+                  XAxis_Annotation = ''
+                  YAxis_Annotation = ''
+               EndSect  // MIKEZero_Time_Axis_Definition_Secondary_View
+
+            EndSect  // GENERAL_PROPERTIES
+
+            [ITEMS]
+               [ITEM_DEFINITION]
+                  [MIKEZero_Item_Definition]
+                     Item_Name = 'THU Speed'
+                     File_Name_New = |2025-08-24_THU_wind-speed-dir_obs.dfs0|
+                     Item_No = 1
+                     Eum_Item_Type = 100274
+                     Eum_Unit = 2000
+                     Unit_Conv_Type = 1
+                     Min = 0.0
+                     Max = 2.400000095367432
+                     Data_Type = 1
+                     Secondary_Y_Axis = false
+                     Time_Series_Type = 0
+                     Time_Series_Type_Auto = true
+                     JKL_Index = 0, 0, 0
+                     JKL_Extremes = 0, 0, 0
+                     Horizontal_Spacing = 1.0
+                     Phase_Shift = 0.0
+                     [MIKEZero_Time_Axis_Definition_Item]
+                        Calendar_Axis = true
+                        Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                        Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                        Y_Min = 0.0
+                        Y_Max = 2.400000095367432
+                        Y_Axis_Type = 4
+                        Y_Primary_Interval = 10.0
+                        Y_No_Of_Secondary_Intervals = 10
+                        Y_Reverse = false
+                        XAxis_Annotation = ''
+                        YAxis_Annotation = ''
+                     EndSect  // MIKEZero_Time_Axis_Definition_Item
+
+                     [MIKEZero_Point_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 0
+                        Base_Col_Green = 0
+                        Base_Col_Blue = 128
+                        Base_Display_On = false
+                        Point_Type = 7
+                        Point_Size = 0.529167
+                        Point_Style = 0
+                     EndSect  // MIKEZero_Point_Object
+
+                     [MIKEZero_Line_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 0
+                        Base_Col_Green = 0
+                        Base_Col_Blue = 128
+                        Base_Display_On = true
+                        Line_Thickness = 0.8
+                        Line_Style = 0
+                        Line_Polygon_Style = 0
+                     EndSect  // MIKEZero_Line_Object
+
+                  EndSect  // MIKEZero_Item_Definition
+
+               EndSect  // ITEM_DEFINITION
+
+               [ITEM_DEFINITION]
+                  [MIKEZero_Item_Definition]
+                     Item_Name = 'THU Direction'
+                     File_Name_New = |2025-08-24_THU_wind-speed-dir_obs.dfs0|
+                     Item_No = 2
+                     Eum_Item_Type = 100003
+                     Eum_Unit = 2401
+                     Unit_Conv_Type = 1
+                     Min = 0.0
+                     Max = 360.0
+                     Data_Type = 1
+                     Secondary_Y_Axis = false
+                     Time_Series_Type = 0
+                     Time_Series_Type_Auto = true
+                     JKL_Index = 0, 0, 0
+                     JKL_Extremes = 0, 0, 0
+                     Horizontal_Spacing = 15.0
+                     Phase_Shift = 5.0
+                     [MIKEZero_Time_Axis_Definition_Item]
+                        Calendar_Axis = true
+                        Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                        Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                        Y_Min = 0.0
+                        Y_Max = 360.0
+                        Y_Axis_Type = 4
+                        Y_Primary_Interval = 10.0
+                        Y_No_Of_Secondary_Intervals = 10
+                        Y_Reverse = false
+                        XAxis_Annotation = ''
+                        YAxis_Annotation = ''
+                     EndSect  // MIKEZero_Time_Axis_Definition_Item
+
+                     [MIKEZero_Point_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 0
+                        Base_Col_Green = 0
+                        Base_Col_Blue = 128
+                        Base_Display_On = true
+                        Point_Type = 1
+                        Point_Size = 5
+                        Point_Style = 2
+                     EndSect  // MIKEZero_Point_Object
+
+                     [MIKEZero_Line_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 0
+                        Base_Col_Green = 0
+                        Base_Col_Blue = 0
+                        Base_Display_On = false
+                        Line_Thickness = 4
+                        Line_Style = 0
+                        Line_Polygon_Style = 0
+                     EndSect  // MIKEZero_Line_Object
+
+                  EndSect  // MIKEZero_Item_Definition
+
+               EndSect  // ITEM_DEFINITION
+
+               [ITEM_DEFINITION]
+                  [MIKEZero_Item_Definition]
+                     Item_Name = 'INT Speed'
+                     File_Name_New = |2025-08-24_INT_wind-speed-dir_obs.dfs0|
+                     Item_No = 1
+                     Eum_Item_Type = 100274
+                     Eum_Unit = 2000
+                     Unit_Conv_Type = 1
+                     Min = 0.1000000014901161
+                     Max = 5.199999809265137
+                     Data_Type = 1
+                     Secondary_Y_Axis = false
+                     Time_Series_Type = 0
+                     Time_Series_Type_Auto = true
+                     JKL_Index = 0, 0, 0
+                     JKL_Extremes = 0, 0, 0
+                     Horizontal_Spacing = 1.0
+                     Phase_Shift = 0.0
+                     [MIKEZero_Time_Axis_Definition_Item]
+                        Calendar_Axis = true
+                        Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                        Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                        Y_Min = 0.1000000014901161
+                        Y_Max = 5.199999809265137
+                        Y_Axis_Type = 4
+                        Y_Primary_Interval = 10.0
+                        Y_No_Of_Secondary_Intervals = 10
+                        Y_Reverse = false
+                        XAxis_Annotation = ''
+                        YAxis_Annotation = ''
+                     EndSect  // MIKEZero_Time_Axis_Definition_Item
+
+                     [MIKEZero_Point_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 166
+                        Base_Col_Green = 202
+                        Base_Col_Blue = 240
+                        Base_Display_On = false
+                        Point_Type = 9
+                        Point_Size = 0.529167
+                        Point_Style = 0
+                     EndSect  // MIKEZero_Point_Object
+
+                     [MIKEZero_Line_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 166
+                        Base_Col_Green = 202
+                        Base_Col_Blue = 240
+                        Base_Display_On = true
+                        Line_Thickness = 0.8
+                        Line_Style = 0
+                        Line_Polygon_Style = 0
+                     EndSect  // MIKEZero_Line_Object
+
+                  EndSect  // MIKEZero_Item_Definition
+
+               EndSect  // ITEM_DEFINITION
+
+               [ITEM_DEFINITION]
+                  [MIKEZero_Item_Definition]
+                     Item_Name = 'INT Direction'
+                     File_Name_New = |2025-08-24_INT_wind-speed-dir_obs.dfs0|
+                     Item_No = 2
+                     Eum_Item_Type = 100003
+                     Eum_Unit = 2401
+                     Unit_Conv_Type = 1
+                     Min = 8.0
+                     Max = 349.0
+                     Data_Type = 1
+                     Secondary_Y_Axis = false
+                     Time_Series_Type = 0
+                     Time_Series_Type_Auto = true
+                     JKL_Index = 0, 0, 0
+                     JKL_Extremes = 0, 0, 0
+                     Horizontal_Spacing = 15.0
+                     Phase_Shift = 10.0
+                     [MIKEZero_Time_Axis_Definition_Item]
+                        Calendar_Axis = true
+                        Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                        Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                        Y_Min = 8.0
+                        Y_Max = 349.0
+                        Y_Axis_Type = 4
+                        Y_Primary_Interval = 10.0
+                        Y_No_Of_Secondary_Intervals = 10
+                        Y_Reverse = false
+                        XAxis_Annotation = ''
+                        YAxis_Annotation = ''
+                     EndSect  // MIKEZero_Time_Axis_Definition_Item
+
+                     [MIKEZero_Point_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 166
+                        Base_Col_Green = 202
+                        Base_Col_Blue = 240
+                        Base_Display_On = true
+                        Point_Type = 1
+                        Point_Size = 5
+                        Point_Style = 2
+                     EndSect  // MIKEZero_Point_Object
+
+                     [MIKEZero_Line_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 0
+                        Base_Col_Green = 0
+                        Base_Col_Blue = 0
+                        Base_Display_On = false
+                        Line_Thickness = 4
+                        Line_Style = 0
+                        Line_Polygon_Style = 0
+                     EndSect  // MIKEZero_Line_Object
+
+                  EndSect  // MIKEZero_Item_Definition
+
+               EndSect  // ITEM_DEFINITION
+
+               [ITEM_DEFINITION]
+                  [MIKEZero_Item_Definition]
+                     Item_Name = 'FRU Speed'
+                     File_Name_New = |2025-08-24_FRU_wind-speed-dir_obs.dfs0|
+                     Item_No = 1
+                     Eum_Item_Type = 100274
+                     Eum_Unit = 2000
+                     Unit_Conv_Type = 1
+                     Min = 0.1000000014901161
+                     Max = 5.400000095367432
+                     Data_Type = 1
+                     Secondary_Y_Axis = false
+                     Time_Series_Type = 0
+                     Time_Series_Type_Auto = true
+                     JKL_Index = 0, 0, 0
+                     JKL_Extremes = 0, 0, 0
+                     Horizontal_Spacing = 1.0
+                     Phase_Shift = 0.0
+                     [MIKEZero_Time_Axis_Definition_Item]
+                        Calendar_Axis = true
+                        Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                        Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                        Y_Min = 0.1000000014901161
+                        Y_Max = 5.400000095367432
+                        Y_Axis_Type = 4
+                        Y_Primary_Interval = 10.0
+                        Y_No_Of_Secondary_Intervals = 10
+                        Y_Reverse = false
+                        XAxis_Annotation = ''
+                        YAxis_Annotation = ''
+                     EndSect  // MIKEZero_Time_Axis_Definition_Item
+
+                     [MIKEZero_Point_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 160
+                        Base_Col_Green = 160
+                        Base_Col_Blue = 164
+                        Base_Display_On = false
+                        Point_Type = 11
+                        Point_Size = 0.529167
+                        Point_Style = 0
+                     EndSect  // MIKEZero_Point_Object
+
+                     [MIKEZero_Line_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 160
+                        Base_Col_Green = 160
+                        Base_Col_Blue = 164
+                        Base_Display_On = true
+                        Line_Thickness = 0.8
+                        Line_Style = 0
+                        Line_Polygon_Style = 0
+                     EndSect  // MIKEZero_Line_Object
+
+                  EndSect  // MIKEZero_Item_Definition
+
+               EndSect  // ITEM_DEFINITION
+
+               [ITEM_DEFINITION]
+                  [MIKEZero_Item_Definition]
+                     Item_Name = 'FRU Direction'
+                     File_Name_New = |2025-08-24_FRU_wind-speed-dir_obs.dfs0|
+                     Item_No = 2
+                     Eum_Item_Type = 100003
+                     Eum_Unit = 2401
+                     Unit_Conv_Type = 1
+                     Min = 16.0
+                     Max = 350.0
+                     Data_Type = 1
+                     Secondary_Y_Axis = false
+                     Time_Series_Type = 0
+                     Time_Series_Type_Auto = true
+                     JKL_Index = 0, 0, 0
+                     JKL_Extremes = 0, 0, 0
+                     Horizontal_Spacing = 15.0
+                     Phase_Shift = 15.0
+                     [MIKEZero_Time_Axis_Definition_Item]
+                        Calendar_Axis = true
+                        Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                        Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                        Y_Min = 16.0
+                        Y_Max = 350.0
+                        Y_Axis_Type = 4
+                        Y_Primary_Interval = 10.0
+                        Y_No_Of_Secondary_Intervals = 10
+                        Y_Reverse = false
+                        XAxis_Annotation = ''
+                        YAxis_Annotation = ''
+                     EndSect  // MIKEZero_Time_Axis_Definition_Item
+
+                     [MIKEZero_Point_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 160
+                        Base_Col_Green = 160
+                        Base_Col_Blue = 164
+                        Base_Display_On = true
+                        Point_Type = 1
+                        Point_Size = 5
+                        Point_Style = 2
+                     EndSect  // MIKEZero_Point_Object
+
+                     [MIKEZero_Line_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 0
+                        Base_Col_Green = 0
+                        Base_Col_Blue = 0
+                        Base_Display_On = false
+                        Line_Thickness = 4
+                        Line_Style = 0
+                        Line_Polygon_Style = 0
+                     EndSect  // MIKEZero_Line_Object
+
+                  EndSect  // MIKEZero_Item_Definition
+
+               EndSect  // ITEM_DEFINITION
+
+            EndSect  // ITEMS
+
+         EndSect  // MZ_TS_DIR_PLOT
+
+      EndSect  // PLOT_PROPERTIES
+
+   EndSect  // ACTIVE_X_PLOT
+
+   [ACTIVE_X_PLOT]
+      [PLOT_TYPE]
+         Name = 'Time Series Plot'
+         ClassID = '{B686DB86-7158-11D1-89EA-00609710DB4A}'
+         Locked = false
+      EndSect  // PLOT_TYPE
+
+      [PLOT_AREA]
+         x0 = 10.0
+         y0 = 10.0
+         x1 = 200.01
+         y1 = 75.01000000000001
+      EndSect  // PLOT_AREA
+
+      [PLOT_PROPERTIES]
+         [MZ_TS_PLOT]
+            [GENERAL_PROPERTIES]
+               Name = 'Time Series Plot'
+               Frame = false
+               Transparent = false
+               Default_Item_Index = 17
+               TS_Legend_Draw = true
+               File_Legend_Draw = false
+               Grid_Draw = true
+               CHART_TITLE = 'Wind Components U & V'
+               [MIKEZero_Time_Axis_Definition_Extreme]
+                  Calendar_Axis = true
+                  Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                  Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                  Y_Min = -1.0
+                  Y_Max = 1.209751963615417
+                  Y_Axis_Type = 4
+                  Y_Primary_Interval = 10.0
+                  Y_No_Of_Secondary_Intervals = 10
+                  Y_Reverse = false
+                  XAxis_Annotation = ''
+                  YAxis_Annotation = ''
+               EndSect  // MIKEZero_Time_Axis_Definition_Extreme
+
+               [MIKEZero_Time_Axis_Definition_View]
+                  Calendar_Axis = true
+                  Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                  Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                  Y_Min = 0.0
+                  Y_Max = 1.3
+                  Y_Axis_Type = 512
+                  Y_Primary_Interval = 0.1
+                  Y_No_Of_Secondary_Intervals = 10
+                  Y_Reverse = false
+                  XAxis_Annotation = ''
+                  YAxis_Annotation = 'Max Wave Height (m)'
+               EndSect  // MIKEZero_Time_Axis_Definition_View
+
+               [MIKEZero_Time_Axis_Definition_Secondary_View]
+                  Calendar_Axis = false
+                  Relative_Time_Min = 1e+20
+                  Relative_Time_Max = -1e+20
+                  Y_Min = 0.0
+                  Y_Max = 0.637890219688416
+                  Y_Axis_Type = 4
+                  Y_Primary_Interval = 10.0
+                  Y_No_Of_Secondary_Intervals = 10
+                  Y_Reverse = false
+                  XAxis_Annotation = ''
+                  YAxis_Annotation = ''
+               EndSect  // MIKEZero_Time_Axis_Definition_Secondary_View
+
+            EndSect  // GENERAL_PROPERTIES
+
+            [ITEMS]
+               [ITEM_DEFINITION]
+                  [MIKEZero_Item_Definition]
+                     Item_Name = '0.10 Hz'
+                     File_Name_New = |24_SW-point-parameters - 2025-08-24-0200-2300-uv-wind_10min_growth1.2_0.1Hz.dfs0|
+                     Item_No = 2
+                     Eum_Item_Type = 110019
+                     Eum_Unit = 1000
+                     Unit_Conv_Type = 1
+                     Min = -1.0
+                     Max = 1.0
+                     Data_Type = 1
+                     Secondary_Y_Axis = false
+                     Time_Series_Type = 0
+                     Time_Series_Type_Auto = true
+                     JKL_Index = 0, 0, 0
+                     JKL_Extremes = 0, 0, 0
+                     Horizontal_Spacing = 1.0
+                     Phase_Shift = 0.0
+                     [MIKEZero_Time_Axis_Definition_Item]
+                        Calendar_Axis = true
+                        Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                        Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                        Y_Min = -1.0
+                        Y_Max = 1.0
+                        Y_Axis_Type = 4
+                        Y_Primary_Interval = 10.0
+                        Y_No_Of_Secondary_Intervals = 10
+                        Y_Reverse = false
+                        XAxis_Annotation = ''
+                        YAxis_Annotation = ''
+                     EndSect  // MIKEZero_Time_Axis_Definition_Item
+
+                     [MIKEZero_Point_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 128
+                        Base_Col_Green = 0
+                        Base_Col_Blue = 128
+                        Base_Display_On = false
+                        Point_Type = 2
+                        Point_Size = 0.529167
+                        Point_Style = 0
+                     EndSect  // MIKEZero_Point_Object
+
+                     [MIKEZero_Line_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 0
+                        Base_Col_Green = 0
+                        Base_Col_Blue = 255
+                        Base_Display_On = true
+                        Line_Thickness = 0.35
+                        Line_Style = 0
+                        Line_Polygon_Style = 0
+                     EndSect  // MIKEZero_Line_Object
+
+                  EndSect  // MIKEZero_Item_Definition
+
+               EndSect  // ITEM_DEFINITION
+
+               [ITEM_DEFINITION]
+                  [MIKEZero_Item_Definition]
+                     Item_Name = '0.15 Hz'
+                     File_Name_New = |25_SW-point-parameters - 2025-08-24-0200-2300-uv-wind_10min_growth1.2_0.15Hz.dfs0|
+                     Item_No = 2
+                     Eum_Item_Type = 110019
+                     Eum_Unit = 1000
+                     Unit_Conv_Type = 1
+                     Min = 0.02464047633111477
+                     Max = 0.09591010957956314
+                     Data_Type = 1
+                     Secondary_Y_Axis = false
+                     Time_Series_Type = 0
+                     Time_Series_Type_Auto = true
+                     JKL_Index = 0, 0, 0
+                     JKL_Extremes = 0, 0, 0
+                     Horizontal_Spacing = 1.0
+                     Phase_Shift = 0.0
+                     [MIKEZero_Time_Axis_Definition_Item]
+                        Calendar_Axis = true
+                        Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                        Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                        Y_Min = 0.02464047633111477
+                        Y_Max = 0.09591010957956314
+                        Y_Axis_Type = 4
+                        Y_Primary_Interval = 10.0
+                        Y_No_Of_Secondary_Intervals = 10
+                        Y_Reverse = false
+                        XAxis_Annotation = ''
+                        YAxis_Annotation = ''
+                     EndSect  // MIKEZero_Time_Axis_Definition_Item
+
+                     [MIKEZero_Point_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 128
+                        Base_Col_Green = 128
+                        Base_Col_Blue = 0
+                        Base_Display_On = false
+                        Point_Type = 3
+                        Point_Size = 0.529167
+                        Point_Style = 0
+                     EndSect  // MIKEZero_Point_Object
+
+                     [MIKEZero_Line_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 255
+                        Base_Col_Green = 128
+                        Base_Col_Blue = 0
+                        Base_Display_On = true
+                        Line_Thickness = 0.35
+                        Line_Style = 0
+                        Line_Polygon_Style = 0
+                     EndSect  // MIKEZero_Line_Object
+
+                  EndSect  // MIKEZero_Item_Definition
+
+               EndSect  // ITEM_DEFINITION
+
+               [ITEM_DEFINITION]
+                  [MIKEZero_Item_Definition]
+                     Item_Name = '0.20 Hz'
+                     File_Name_New = |26_SW-point-parameters - 2025-08-24-0200-2300-uv-wind_10min_growth1.2_0.2Hz.dfs0|
+                     Item_No = 2
+                     Eum_Item_Type = 110019
+                     Eum_Unit = 1000
+                     Unit_Conv_Type = 1
+                     Min = 0.0245648305863142
+                     Max = 1.209751963615417
+                     Data_Type = 1
+                     Secondary_Y_Axis = false
+                     Time_Series_Type = 0
+                     Time_Series_Type_Auto = true
+                     JKL_Index = 0, 0, 0
+                     JKL_Extremes = 0, 0, 0
+                     Horizontal_Spacing = 1.0
+                     Phase_Shift = 0.0
+                     [MIKEZero_Time_Axis_Definition_Item]
+                        Calendar_Axis = true
+                        Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                        Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                        Y_Min = 0.0245648305863142
+                        Y_Max = 1.209751963615417
+                        Y_Axis_Type = 4
+                        Y_Primary_Interval = 10.0
+                        Y_No_Of_Secondary_Intervals = 10
+                        Y_Reverse = false
+                        XAxis_Annotation = ''
+                        YAxis_Annotation = ''
+                     EndSect  // MIKEZero_Time_Axis_Definition_Item
+
+                     [MIKEZero_Point_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 128
+                        Base_Col_Green = 128
+                        Base_Col_Blue = 128
+                        Base_Display_On = false
+                        Point_Type = 4
+                        Point_Size = 0.529167
+                        Point_Style = 0
+                     EndSect  // MIKEZero_Point_Object
+
+                     [MIKEZero_Line_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 0
+                        Base_Col_Green = 0
+                        Base_Col_Blue = 0
+                        Base_Display_On = true
+                        Line_Thickness = 0.35
+                        Line_Style = 0
+                        Line_Polygon_Style = 0
+                     EndSect  // MIKEZero_Line_Object
+
+                  EndSect  // MIKEZero_Item_Definition
+
+               EndSect  // ITEM_DEFINITION
+
+               [ITEM_DEFINITION]
+                  [MIKEZero_Item_Definition]
+                     Item_Name = '0.25 Hz'
+                     File_Name_New = |27_SW-point-parameters - 2025-08-24-0200-2300-uv-wind_10min_growth1.2_0.25Hz.dfs0|
+                     Item_No = 2
+                     Eum_Item_Type = 110019
+                     Eum_Unit = 1000
+                     Unit_Conv_Type = 1
+                     Min = 0.03084774687886238
+                     Max = 0.7444047927856445
+                     Data_Type = 1
+                     Secondary_Y_Axis = false
+                     Time_Series_Type = 0
+                     Time_Series_Type_Auto = true
+                     JKL_Index = 0, 0, 0
+                     JKL_Extremes = 0, 0, 0
+                     Horizontal_Spacing = 1.0
+                     Phase_Shift = 0.0
+                     [MIKEZero_Time_Axis_Definition_Item]
+                        Calendar_Axis = true
+                        Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                        Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                        Y_Min = 0.03084774687886238
+                        Y_Max = 0.7444047927856445
+                        Y_Axis_Type = 4
+                        Y_Primary_Interval = 10.0
+                        Y_No_Of_Secondary_Intervals = 10
+                        Y_Reverse = false
+                        XAxis_Annotation = ''
+                        YAxis_Annotation = ''
+                     EndSect  // MIKEZero_Time_Axis_Definition_Item
+
+                     [MIKEZero_Point_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 192
+                        Base_Col_Green = 192
+                        Base_Col_Blue = 192
+                        Base_Display_On = false
+                        Point_Type = 5
+                        Point_Size = 0.529167
+                        Point_Style = 0
+                     EndSect  // MIKEZero_Point_Object
+
+                     [MIKEZero_Line_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 255
+                        Base_Col_Green = 0
+                        Base_Col_Blue = 0
+                        Base_Display_On = true
+                        Line_Thickness = 0.35
+                        Line_Style = 0
+                        Line_Polygon_Style = 0
+                     EndSect  // MIKEZero_Line_Object
+
+                  EndSect  // MIKEZero_Item_Definition
+
+               EndSect  // ITEM_DEFINITION
+
+               [ITEM_DEFINITION]
+                  [MIKEZero_Item_Definition]
+                     Item_Name = '0.30 Hz'
+                     File_Name_New = |28_SW-point-parameters - 2025-08-24-0200-2300-uv-wind_10min_growth1.2_0.3Hz.dfs0|
+                     Item_No = 2
+                     Eum_Item_Type = 110019
+                     Eum_Unit = 1000
+                     Unit_Conv_Type = 1
+                     Min = 0.05111720785498619
+                     Max = 0.975861132144928
+                     Data_Type = 1
+                     Secondary_Y_Axis = false
+                     Time_Series_Type = 0
+                     Time_Series_Type_Auto = true
+                     JKL_Index = 0, 0, 0
+                     JKL_Extremes = 0, 0, 0
+                     Horizontal_Spacing = 1.0
+                     Phase_Shift = 0.0
+                     [MIKEZero_Time_Axis_Definition_Item]
+                        Calendar_Axis = true
+                        Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                        Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                        Y_Min = 0.05111720785498619
+                        Y_Max = 0.975861132144928
+                        Y_Axis_Type = 4
+                        Y_Primary_Interval = 10.0
+                        Y_No_Of_Secondary_Intervals = 10
+                        Y_Reverse = false
+                        XAxis_Annotation = ''
+                        YAxis_Annotation = ''
+                     EndSect  // MIKEZero_Time_Axis_Definition_Item
+
+                     [MIKEZero_Point_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 192
+                        Base_Col_Green = 220
+                        Base_Col_Blue = 192
+                        Base_Display_On = false
+                        Point_Type = 6
+                        Point_Size = 0.529167
+                        Point_Style = 0
+                     EndSect  // MIKEZero_Point_Object
+
+                     [MIKEZero_Line_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 160
+                        Base_Col_Green = 160
+                        Base_Col_Blue = 164
+                        Base_Display_On = true
+                        Line_Thickness = 0.35
+                        Line_Style = 0
+                        Line_Polygon_Style = 0
+                     EndSect  // MIKEZero_Line_Object
+
+                  EndSect  // MIKEZero_Item_Definition
+
+               EndSect  // ITEM_DEFINITION
+
+            EndSect  // ITEMS
+
+         EndSect  // MZ_TS_PLOT
+
+      EndSect  // PLOT_PROPERTIES
+
+   EndSect  // ACTIVE_X_PLOT
+
+   [ACTIVE_X_PLOT]
+      [PLOT_TYPE]
+         Name = 'Time Series Plot'
+         ClassID = '{B686DB86-7158-11D1-89EA-00609710DB4A}'
+         Locked = false
+      EndSect  // PLOT_TYPE
+
+      [PLOT_AREA]
+         x0 = 10.0
+         y0 = 75.0
+         x1 = 200.01
+         y1 = 125.0
+      EndSect  // PLOT_AREA
+
+      [PLOT_PROPERTIES]
+         [MZ_TS_PLOT]
+            [GENERAL_PROPERTIES]
+               Name = 'Time Series Plot'
+               Frame = false
+               Transparent = false
+               Default_Item_Index = 16
+               TS_Legend_Draw = false
+               File_Legend_Draw = false
+               Grid_Draw = true
+               CHART_TITLE = 'Windspeed & Direction'
+               [MIKEZero_Time_Axis_Definition_Extreme]
+                  Calendar_Axis = true
+                  Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                  Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                  Y_Min = -1.0
+                  Y_Max = 1.122275710105896
+                  Y_Axis_Type = 4
+                  Y_Primary_Interval = 10.0
+                  Y_No_Of_Secondary_Intervals = 10
+                  Y_Reverse = false
+                  XAxis_Annotation = ''
+                  YAxis_Annotation = ''
+               EndSect  // MIKEZero_Time_Axis_Definition_Extreme
+
+               [MIKEZero_Time_Axis_Definition_View]
+                  Calendar_Axis = true
+                  Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                  Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                  Y_Min = 0.0
+                  Y_Max = 1.3
+                  Y_Axis_Type = 512
+                  Y_Primary_Interval = 0.1
+                  Y_No_Of_Secondary_Intervals = 0
+                  Y_Reverse = false
+                  XAxis_Annotation = ''
+                  YAxis_Annotation = 'Max Wave Height (m)'
+               EndSect  // MIKEZero_Time_Axis_Definition_View
+
+               [MIKEZero_Time_Axis_Definition_Secondary_View]
+                  Calendar_Axis = false
+                  Relative_Time_Min = 1e+20
+                  Relative_Time_Max = -1e+20
+                  Y_Min = 0.0
+                  Y_Max = 0.618428289890289
+                  Y_Axis_Type = 4
+                  Y_Primary_Interval = 10.0
+                  Y_No_Of_Secondary_Intervals = 10
+                  Y_Reverse = false
+                  XAxis_Annotation = ''
+                  YAxis_Annotation = ''
+               EndSect  // MIKEZero_Time_Axis_Definition_Secondary_View
+
+            EndSect  // GENERAL_PROPERTIES
+
+            [ITEMS]
+               [ITEM_DEFINITION]
+                  [MIKEZero_Item_Definition]
+                     Item_Name = '0.10 Hz'
+                     File_Name_New = |33_SW-point-parameters - 2025-08-24-0200-2300-sd-wind_10min_growth1.2_0.1Hz.dfs0|
+                     Item_No = 2
+                     Eum_Item_Type = 110019
+                     Eum_Unit = 1000
+                     Unit_Conv_Type = 1
+                     Min = -1.0
+                     Max = 1.0
+                     Data_Type = 1
+                     Secondary_Y_Axis = false
+                     Time_Series_Type = 0
+                     Time_Series_Type_Auto = true
+                     JKL_Index = 0, 0, 0
+                     JKL_Extremes = 0, 0, 0
+                     Horizontal_Spacing = 1.0
+                     Phase_Shift = 0.0
+                     [MIKEZero_Time_Axis_Definition_Item]
+                        Calendar_Axis = true
+                        Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                        Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                        Y_Min = -1.0
+                        Y_Max = 1.0
+                        Y_Axis_Type = 4
+                        Y_Primary_Interval = 10.0
+                        Y_No_Of_Secondary_Intervals = 10
+                        Y_Reverse = false
+                        XAxis_Annotation = ''
+                        YAxis_Annotation = ''
+                     EndSect  // MIKEZero_Time_Axis_Definition_Item
+
+                     [MIKEZero_Point_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 128
+                        Base_Col_Green = 128
+                        Base_Col_Blue = 128
+                        Base_Display_On = false
+                        Point_Type = 4
+                        Point_Size = 0.529167
+                        Point_Style = 0
+                     EndSect  // MIKEZero_Point_Object
+
+                     [MIKEZero_Line_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 0
+                        Base_Col_Green = 0
+                        Base_Col_Blue = 255
+                        Base_Display_On = true
+                        Line_Thickness = 0.35
+                        Line_Style = 0
+                        Line_Polygon_Style = 0
+                     EndSect  // MIKEZero_Line_Object
+
+                  EndSect  // MIKEZero_Item_Definition
+
+               EndSect  // ITEM_DEFINITION
+
+               [ITEM_DEFINITION]
+                  [MIKEZero_Item_Definition]
+                     Item_Name = '0.15 Hz'
+                     File_Name_New = |31_SW-point-parameters - 2025-08-24-0200-2300-sd-wind_10min_growth1.2_0.15Hz.dfs0|
+                     Item_No = 2
+                     Eum_Item_Type = 110019
+                     Eum_Unit = 1000
+                     Unit_Conv_Type = 1
+                     Min = 0.02450773678719997
+                     Max = 0.1652989536523819
+                     Data_Type = 1
+                     Secondary_Y_Axis = false
+                     Time_Series_Type = 0
+                     Time_Series_Type_Auto = true
+                     JKL_Index = 0, 0, 0
+                     JKL_Extremes = 0, 0, 0
+                     Horizontal_Spacing = 1.0
+                     Phase_Shift = 0.0
+                     [MIKEZero_Time_Axis_Definition_Item]
+                        Calendar_Axis = true
+                        Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                        Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                        Y_Min = 0.02450773678719997
+                        Y_Max = 0.1652989536523819
+                        Y_Axis_Type = 4
+                        Y_Primary_Interval = 10.0
+                        Y_No_Of_Secondary_Intervals = 10
+                        Y_Reverse = false
+                        XAxis_Annotation = ''
+                        YAxis_Annotation = ''
+                     EndSect  // MIKEZero_Time_Axis_Definition_Item
+
+                     [MIKEZero_Point_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 128
+                        Base_Col_Green = 0
+                        Base_Col_Blue = 128
+                        Base_Display_On = false
+                        Point_Type = 2
+                        Point_Size = 0.529167
+                        Point_Style = 0
+                     EndSect  // MIKEZero_Point_Object
+
+                     [MIKEZero_Line_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 255
+                        Base_Col_Green = 128
+                        Base_Col_Blue = 0
+                        Base_Display_On = true
+                        Line_Thickness = 0.35
+                        Line_Style = 0
+                        Line_Polygon_Style = 0
+                     EndSect  // MIKEZero_Line_Object
+
+                  EndSect  // MIKEZero_Item_Definition
+
+               EndSect  // ITEM_DEFINITION
+
+               [ITEM_DEFINITION]
+                  [MIKEZero_Item_Definition]
+                     Item_Name = '0.20 Hz'
+                     File_Name_New = |32_SW-point-parameters - 2025-08-24-0200-2300-sd-wind_10min_growth1.2_0.2Hz.dfs0|
+                     Item_No = 2
+                     Eum_Item_Type = 110019
+                     Eum_Unit = 1000
+                     Unit_Conv_Type = 1
+                     Min = 0.05090662091970444
+                     Max = 1.008505821228027
+                     Data_Type = 1
+                     Secondary_Y_Axis = false
+                     Time_Series_Type = 0
+                     Time_Series_Type_Auto = true
+                     JKL_Index = 0, 0, 0
+                     JKL_Extremes = 0, 0, 0
+                     Horizontal_Spacing = 1.0
+                     Phase_Shift = 0.0
+                     [MIKEZero_Time_Axis_Definition_Item]
+                        Calendar_Axis = true
+                        Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                        Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                        Y_Min = 0.05090662091970444
+                        Y_Max = 1.008505821228027
+                        Y_Axis_Type = 4
+                        Y_Primary_Interval = 10.0
+                        Y_No_Of_Secondary_Intervals = 10
+                        Y_Reverse = false
+                        XAxis_Annotation = ''
+                        YAxis_Annotation = ''
+                     EndSect  // MIKEZero_Time_Axis_Definition_Item
+
+                     [MIKEZero_Point_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 128
+                        Base_Col_Green = 128
+                        Base_Col_Blue = 0
+                        Base_Display_On = false
+                        Point_Type = 3
+                        Point_Size = 0.529167
+                        Point_Style = 0
+                     EndSect  // MIKEZero_Point_Object
+
+                     [MIKEZero_Line_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 0
+                        Base_Col_Green = 0
+                        Base_Col_Blue = 0
+                        Base_Display_On = true
+                        Line_Thickness = 0.35
+                        Line_Style = 0
+                        Line_Polygon_Style = 0
+                     EndSect  // MIKEZero_Line_Object
+
+                  EndSect  // MIKEZero_Item_Definition
+
+               EndSect  // ITEM_DEFINITION
+
+               [ITEM_DEFINITION]
+                  [MIKEZero_Item_Definition]
+                     Item_Name = '0.25 Hz'
+                     File_Name_New = |34_SW-point-parameters - 2025-08-24-0200-2300-sd-wind_10min_growth1.2_0.25Hz.dfs0|
+                     Item_No = 2
+                     Eum_Item_Type = 110019
+                     Eum_Unit = 1000
+                     Unit_Conv_Type = 1
+                     Min = 0.06826668232679367
+                     Max = 1.122275710105896
+                     Data_Type = 1
+                     Secondary_Y_Axis = false
+                     Time_Series_Type = 0
+                     Time_Series_Type_Auto = true
+                     JKL_Index = 0, 0, 0
+                     JKL_Extremes = 0, 0, 0
+                     Horizontal_Spacing = 1.0
+                     Phase_Shift = 0.0
+                     [MIKEZero_Time_Axis_Definition_Item]
+                        Calendar_Axis = true
+                        Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                        Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                        Y_Min = 0.06826668232679367
+                        Y_Max = 1.122275710105896
+                        Y_Axis_Type = 4
+                        Y_Primary_Interval = 10.0
+                        Y_No_Of_Secondary_Intervals = 10
+                        Y_Reverse = false
+                        XAxis_Annotation = ''
+                        YAxis_Annotation = ''
+                     EndSect  // MIKEZero_Time_Axis_Definition_Item
+
+                     [MIKEZero_Point_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 192
+                        Base_Col_Green = 192
+                        Base_Col_Blue = 192
+                        Base_Display_On = false
+                        Point_Type = 5
+                        Point_Size = 0.529167
+                        Point_Style = 0
+                     EndSect  // MIKEZero_Point_Object
+
+                     [MIKEZero_Line_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 255
+                        Base_Col_Green = 0
+                        Base_Col_Blue = 0
+                        Base_Display_On = true
+                        Line_Thickness = 0.35
+                        Line_Style = 0
+                        Line_Polygon_Style = 0
+                     EndSect  // MIKEZero_Line_Object
+
+                  EndSect  // MIKEZero_Item_Definition
+
+               EndSect  // ITEM_DEFINITION
+
+            EndSect  // ITEMS
+
+         EndSect  // MZ_TS_PLOT
+
+      EndSect  // PLOT_PROPERTIES
+
+   EndSect  // ACTIVE_X_PLOT
+
+   [ACTIVE_X_PLOT]
+      [PLOT_TYPE]
+         Name = 'Time Series Plot'
+         ClassID = '{B686DB86-7158-11D1-89EA-00609710DB4A}'
+         Locked = false
+      EndSect  // PLOT_TYPE
+
+      [PLOT_AREA]
+         x0 = 10.0
+         y0 = 125.0
+         x1 = 200.0
+         y1 = 200.0
+      EndSect  // PLOT_AREA
+
+      [PLOT_PROPERTIES]
+         [MZ_TS_PLOT]
+            [GENERAL_PROPERTIES]
+               Name = 'Time Series Plot'
+               Frame = false
+               Transparent = false
+               Default_Item_Index = 8
+               TS_Legend_Draw = true
+               File_Legend_Draw = false
+               Grid_Draw = true
+               CHART_TITLE = 'Deep Learning Model Output Comparison'
+               [MIKEZero_Time_Axis_Definition_Extreme]
+                  Calendar_Axis = true
+                  Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                  Date_Time_Max = 2025, 8, 24, 23, 40, 0
+                  Y_Min = 0.0788268968462944
+                  Y_Max = 0.4639926850795746
+                  Y_Axis_Type = 4
+                  Y_Primary_Interval = 10.0
+                  Y_No_Of_Secondary_Intervals = 10
+                  Y_Reverse = false
+                  XAxis_Annotation = ''
+                  YAxis_Annotation = ''
+               EndSect  // MIKEZero_Time_Axis_Definition_Extreme
+
+               [MIKEZero_Time_Axis_Definition_View]
+                  Calendar_Axis = true
+                  Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                  Date_Time_Max = 2025, 8, 24, 23, 50, 0
+                  Y_Min = 0.0
+                  Y_Max = 1.3
+                  Y_Axis_Type = 512
+                  Y_Primary_Interval = 0.1
+                  Y_No_Of_Secondary_Intervals = 10
+                  Y_Reverse = false
+                  XAxis_Annotation = ''
+                  YAxis_Annotation = 'Max Wave Height (m)'
+               EndSect  // MIKEZero_Time_Axis_Definition_View
+
+               [MIKEZero_Time_Axis_Definition_Secondary_View]
+                  Calendar_Axis = false
+                  Relative_Time_Min = 1e+20
+                  Relative_Time_Max = -1e+20
+                  Y_Min = 0.0801077634096146
+                  Y_Max = 0.386660724878311
+                  Y_Axis_Type = 4
+                  Y_Primary_Interval = 10.0
+                  Y_No_Of_Secondary_Intervals = 10
+                  Y_Reverse = false
+                  XAxis_Annotation = ''
+                  YAxis_Annotation = ''
+               EndSect  // MIKEZero_Time_Axis_Definition_Secondary_View
+
+            EndSect  // GENERAL_PROPERTIES
+
+            [ITEMS]
+               [ITEM_DEFINITION]
+                  [MIKEZero_Item_Definition]
+                     Item_Name = 'yolov8s-5000_150e'
+                     File_Name_New = |2025-08-24_yolov8s-5000_150e_results.dfs0|
+                     Item_No = 1
+                     Eum_Item_Type = 110019
+                     Eum_Unit = 1000
+                     Unit_Conv_Type = 1
+                     Min = 0.08222316950559616
+                     Max = 0.3578886687755585
+                     Data_Type = 1
+                     Secondary_Y_Axis = false
+                     Time_Series_Type = 0
+                     Time_Series_Type_Auto = true
+                     JKL_Index = 0, 0, 0
+                     JKL_Extremes = 0, 0, 0
+                     Horizontal_Spacing = 1.0
+                     Phase_Shift = 0.0
+                     [MIKEZero_Time_Axis_Definition_Item]
+                        Calendar_Axis = true
+                        Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                        Date_Time_Max = 2025, 8, 24, 23, 40, 0
+                        Y_Min = 0.08222316950559616
+                        Y_Max = 0.3578886687755585
+                        Y_Axis_Type = 4
+                        Y_Primary_Interval = 10.0
+                        Y_No_Of_Secondary_Intervals = 10
+                        Y_Reverse = false
+                        XAxis_Annotation = ''
+                        YAxis_Annotation = ''
+                     EndSect  // MIKEZero_Time_Axis_Definition_Item
+
+                     [MIKEZero_Point_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 255
+                        Base_Col_Green = 128
+                        Base_Col_Blue = 0
+                        Base_Display_On = false
+                        Point_Type = 8
+                        Point_Size = 0.529167
+                        Point_Style = 0
+                     EndSect  // MIKEZero_Point_Object
+
+                     [MIKEZero_Line_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 255
+                        Base_Col_Green = 0
+                        Base_Col_Blue = 128
+                        Base_Display_On = true
+                        Line_Thickness = 0.8
+                        Line_Style = 0
+                        Line_Polygon_Style = 0
+                     EndSect  // MIKEZero_Line_Object
+
+                  EndSect  // MIKEZero_Item_Definition
+
+               EndSect  // ITEM_DEFINITION
+
+               [ITEM_DEFINITION]
+                  [MIKEZero_Item_Definition]
+                     Item_Name = 'yolov8s-1000_150e'
+                     File_Name_New = |2025-08-24_yolov8s-1000_150e_results.dfs0|
+                     Item_No = 1
+                     Eum_Item_Type = 110019
+                     Eum_Unit = 1000
+                     Unit_Conv_Type = 1
+                     Min = 0.1295933574438095
+                     Max = 0.4639926850795746
+                     Data_Type = 1
+                     Secondary_Y_Axis = false
+                     Time_Series_Type = 0
+                     Time_Series_Type_Auto = true
+                     JKL_Index = 0, 0, 0
+                     JKL_Extremes = 0, 0, 0
+                     Horizontal_Spacing = 1.0
+                     Phase_Shift = 0.0
+                     [MIKEZero_Time_Axis_Definition_Item]
+                        Calendar_Axis = true
+                        Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                        Date_Time_Max = 2025, 8, 24, 21, 0, 0
+                        Y_Min = 0.1295933574438095
+                        Y_Max = 0.4639926850795746
+                        Y_Axis_Type = 4
+                        Y_Primary_Interval = 10.0
+                        Y_No_Of_Secondary_Intervals = 10
+                        Y_Reverse = false
+                        XAxis_Annotation = ''
+                        YAxis_Annotation = ''
+                     EndSect  // MIKEZero_Time_Axis_Definition_Item
+
+                     [MIKEZero_Point_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 0
+                        Base_Col_Green = 255
+                        Base_Col_Blue = 255
+                        Base_Display_On = false
+                        Point_Type = 4
+                        Point_Size = 0.529167
+                        Point_Style = 0
+                     EndSect  // MIKEZero_Point_Object
+
+                     [MIKEZero_Line_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 0
+                        Base_Col_Green = 128
+                        Base_Col_Blue = 0
+                        Base_Display_On = true
+                        Line_Thickness = 0.8
+                        Line_Style = 0
+                        Line_Polygon_Style = 0
+                     EndSect  // MIKEZero_Line_Object
+
+                  EndSect  // MIKEZero_Item_Definition
+
+               EndSect  // ITEM_DEFINITION
+
+               [ITEM_DEFINITION]
+                  [MIKEZero_Item_Definition]
+                     Item_Name = 'yolov8n-1000_150e'
+                     File_Name_New = |2025-08-24_yolov8n-1000_150e_results.dfs0|
+                     Item_No = 1
+                     Eum_Item_Type = 110019
+                     Eum_Unit = 1000
+                     Unit_Conv_Type = 1
+                     Min = 0.08131900429725647
+                     Max = 0.3429509401321411
+                     Data_Type = 1
+                     Secondary_Y_Axis = false
+                     Time_Series_Type = 0
+                     Time_Series_Type_Auto = true
+                     JKL_Index = 0, 0, 0
+                     JKL_Extremes = 0, 0, 0
+                     Horizontal_Spacing = 1.0
+                     Phase_Shift = 0.0
+                     [MIKEZero_Time_Axis_Definition_Item]
+                        Calendar_Axis = true
+                        Date_Time_Min = 2025, 8, 24, 2, 20, 0
+                        Date_Time_Max = 2025, 8, 24, 20, 40, 0
+                        Y_Min = 0.08131900429725647
+                        Y_Max = 0.3429509401321411
+                        Y_Axis_Type = 4
+                        Y_Primary_Interval = 10.0
+                        Y_No_Of_Secondary_Intervals = 10
+                        Y_Reverse = false
+                        XAxis_Annotation = ''
+                        YAxis_Annotation = ''
+                     EndSect  // MIKEZero_Time_Axis_Definition_Item
+
+                     [MIKEZero_Point_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 255
+                        Base_Col_Green = 0
+                        Base_Col_Blue = 0
+                        Base_Display_On = false
+                        Point_Type = 5
+                        Point_Size = 0.529167
+                        Point_Style = 0
+                     EndSect  // MIKEZero_Point_Object
+
+                     [MIKEZero_Line_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 192
+                        Base_Col_Green = 220
+                        Base_Col_Blue = 192
+                        Base_Display_On = true
+                        Line_Thickness = 0.8
+                        Line_Style = 0
+                        Line_Polygon_Style = 0
+                     EndSect  // MIKEZero_Line_Object
+
+                  EndSect  // MIKEZero_Item_Definition
+
+               EndSect  // ITEM_DEFINITION
+
+               [ITEM_DEFINITION]
+                  [MIKEZero_Item_Definition]
+                     Item_Name = 'yolov8n-1000_50e'
+                     File_Name_New = |2025-08-24_yolov8n-1000_50e_results.dfs0|
+                     Item_No = 1
+                     Eum_Item_Type = 110019
+                     Eum_Unit = 1000
+                     Unit_Conv_Type = 1
+                     Min = 0.0788268968462944
+                     Max = 0.349020779132843
+                     Data_Type = 1
+                     Secondary_Y_Axis = false
+                     Time_Series_Type = 0
+                     Time_Series_Type_Auto = true
+                     JKL_Index = 0, 0, 0
+                     JKL_Extremes = 0, 0, 0
+                     Horizontal_Spacing = 1.0
+                     Phase_Shift = 0.0
+                     [MIKEZero_Time_Axis_Definition_Item]
+                        Calendar_Axis = true
+                        Date_Time_Min = 2025, 8, 24, 2, 0, 0
+                        Date_Time_Max = 2025, 8, 24, 23, 40, 0
+                        Y_Min = 0.0788268968462944
+                        Y_Max = 0.349020779132843
+                        Y_Axis_Type = 4
+                        Y_Primary_Interval = 10.0
+                        Y_No_Of_Secondary_Intervals = 10
+                        Y_Reverse = false
+                        XAxis_Annotation = ''
+                        YAxis_Annotation = ''
+                     EndSect  // MIKEZero_Time_Axis_Definition_Item
+
+                     [MIKEZero_Point_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 255
+                        Base_Col_Green = 0
+                        Base_Col_Blue = 255
+                        Base_Display_On = false
+                        Point_Type = 6
+                        Point_Size = 0.529167
+                        Point_Style = 0
+                     EndSect  // MIKEZero_Point_Object
+
+                     [MIKEZero_Line_Object]
+                        Base_Title = ''
+                        Base_Reg_Key = ''
+                        Base_Col_Red = 0
+                        Base_Col_Green = 255
+                        Base_Col_Blue = 0
+                        Base_Display_On = true
+                        Line_Thickness = 0.8
+                        Line_Style = 0
+                        Line_Polygon_Style = 0
+                     EndSect  // MIKEZero_Line_Object
+
+                  EndSect  // MIKEZero_Item_Definition
+
+               EndSect  // ITEM_DEFINITION
+
+            EndSect  // ITEMS
+
+         EndSect  // MZ_TS_PLOT
+
+      EndSect  // PLOT_PROPERTIES
+
+   EndSect  // ACTIVE_X_PLOT
+
+EndSect  // MIKE_ZERO_PLOT_COMPOSER
+

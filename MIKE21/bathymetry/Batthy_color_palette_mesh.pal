@@ -1,0 +1,25 @@
+// Created     : 2025-10-4 17:13:25
+// DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2025\bin\x64\pfs2004.dll
+// Version     : 23.0.3.18318
+
+[PALETTE_FILE]
+   [MIKEZero_Palette_Definition]
+      Palette_Title = 'Scatter legend'
+      Palette_Type = 3
+      Locked = false
+      Topmost_Value = false
+      Nice_Value = true
+      RGB_Delete_Color = 220, 220, 220
+      RGB_Land_Color_Value = 235, 235, 235, 558
+      RGB_Land_Above = true
+      RGB_Color_Value = 50, 50, 180, 300
+      RGB_Color_Value = 71, 80, 193, 350
+      RGB_Color_Value = 92, 109, 205, 400
+      RGB_Color_Value = 113, 138, 218, 450
+      RGB_Color_Value = 134, 168, 230, 500
+      RGB_Color_Value = 155, 197, 243, 550
+      RGB_Color_Value = 176, 226, 255, 558
+   EndSect  // MIKEZero_Palette_Definition
+
+EndSect  // PALETTE_FILE
+
